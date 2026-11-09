@@ -29,3 +29,41 @@ h1,h2,.rating strong{color:#111}h1 em,h2 em,.malayalam{color:#555}
 .visit h2{color:#fff}.visit h2 em,.visit-decoration em{color:#d6d6d2}.button-light{background:#f7f7f5;color:#111}
 .button-light span,.visit-decoration span{color:#111}.visit-phone{color:#fff}.visit-copy>small,.visit-copy>p{color:#d0d0cc}.visit-decoration{color:#e7e7e3}
 .footer>span,.footer>a:last-child{color:#666}.header.nav-open nav{background:var(--paper)}
+
+/* Full black-and-white salon theme */
+:root{--plum:#050505;--plum2:#111;--ink:#f5f5f2;--paper:#050505;--cream:#111;--copper:#f5f5f2;--rose:#ddd;--muted:#b8b8b4;--line:#303030}
+html,body{background:#050505!important;color:#f5f5f2!important}
+body{color-scheme:dark}
+.topline{background:#000!important;color:#fff!important;border-bottom:1px solid #272727}
+.topline a{color:#fff!important}
+.header{background:#050505!important;border-color:#303030!important}
+.brand-symbol{border-color:#fff!important;color:#fff!important}
+.brand-symbol span,.brand-text small{color:#ddd!important}
+.brand-text,.header nav,.header nav a,.book-link{color:#fff!important}
+.book-link{border-color:#aaa!important;background:transparent!important}
+.header nav a:hover,.under-link:hover{color:#ccc!important}
+.eyebrow,.hero-foot,.welcome-item small,.welcome-item p,.hero-desc,.section-head>p,.service-info p,.about-copy p,.service-foot>span,.review-score small,.review-note{color:#bdbdbd!important}
+.eyebrow span{background:#fff!important}
+h1,h2,h3,.brand-text,.welcome-item strong,.service-info h3,.rating strong,.review-summary p,.review-score>b,.review-stars,.dark-link,.under-link,.service-foot>a,.visit-phone{color:#fff!important}
+h1 em,h2 em,.malayalam{color:#ddd!important}
+.rating,.stars,.under-link span,.service-no,.service-arrow,.service-foot b,.review-summary a span,.review-symbol{color:#e8e8e8!important}
+.button-copper,.button-light{background:#111!important;color:#fff!important;border:1px solid #fff!important}
+.button-copper span,.button-light span{color:#fff!important}
+.hero,.services,.guest-notes,.footer{background:#050505!important}
+.welcome-strip,.service-card,.review-summary{background:#111!important;border:1px solid #292929!important}
+.service-photo,.hero-image,.about-pic{filter:grayscale(1)!important}
+.frame{border-color:#eee!important}
+.seal{background:#050505!important;color:#fff!important;border:1px solid #fff!important}
+.seal b{color:#fff!important}
+.hero-note{background:#080808!important;color:#fff!important;border:1px solid #777!important}
+.hero-note small{color:#ddd!important}
+.about{background:#101010!important;color:#fff!important}
+.about-sticker{background:#050505!important;color:#fff!important;border:1px solid #fff!important}
+.about-sticker em,.about-sticker span{color:#fff!important}
+.about-note{color:#fff!important}
+.visit{background:#000!important;color:#fff!important;border-top:1px solid #333!important;border-bottom:1px solid #333!important}
+.visit .eyebrow,.visit-copy>p,.visit-copy>small{color:#ddd!important}
+.visit h2,.visit h2 em,.visit-decoration,.visit-decoration em,.visit-decoration span{color:#fff!important}
+.footer{border-top:1px solid #303030!important}
+.footer>span,.footer>a:last-child{color:#ddd!important}
+.header.nav-open nav{background:#050505!important;border:1px solid #333!important}
