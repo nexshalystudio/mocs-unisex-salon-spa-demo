@@ -67,3 +67,6 @@ h1 em,h2 em,.malayalam{color:#ddd!important}
 .footer{border-top:1px solid #303030!important}
 .footer>span,.footer>a:last-child{color:#ddd!important}
 .header.nav-open nav{background:#050505!important;border:1px solid #333!important}
+
+/* Keep the dark interface while restoring full-color salon photography. */
+.hero-image,.service-photo,.about-pic{filter:none!important}
